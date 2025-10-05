@@ -56,10 +56,10 @@ How It Works
     4) Reports: Get a summarized view of current inventory.
 
 Project picture:
+<img width="1919" height="977" alt="Inventory managament" src="https://github.com/user-attachments/assets/3bb5b0f8-8f60-4d18-90d4-d9f004ea0e23" />
 
-    ![Inventory System Screenshotalt text](<Inventory managament.png>)
+<img width="1919" height="981" alt="inventory managment system" src="https://github.com/user-attachments/assets/93dd439f-4549-4c46-8a55-e0ecccd218d0" />
 
-    ![Inventory System Screenshotalt text](<inventory managment system.png>)
 
 
 
