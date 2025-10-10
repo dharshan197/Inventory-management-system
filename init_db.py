@@ -39,16 +39,16 @@ locations = [("Warehouse A",), ("Store B",), ("Depot C",), ("Shop D",)]
 cursor.executemany("INSERT INTO Location (location_name) VALUES (?)", locations)
 
 movements = [
-    (None, 1, 50),       # Product 1 to Warehouse A
-    (None, 2, 30),       # Product 2 to Warehouse A
-    (None, 3, 20),       # Product 3 to Warehouse A
-    (None, 4, 10),       # Product 4 to Warehouse A
-    (1, 2, 10),          # Product 1 from Warehouse A to Store B
-    (1, 3, 15),          # Product 1 from Warehouse A to Depot C
-    (2, 2, 5),           # Product 2 from Warehouse A to Store B
-    (2, 4, 10),          # Product 2 from Warehouse A to Shop D
-    (3, 3, 5),           # Product 3 from Warehouse A to Depot C
-    (4, 2, 3)            # Product 4 from Warehouse A to Store B
+    (None, 1, 50),       
+    (None, 2, 30),       
+    (None, 3, 20),      
+    (None, 4, 10),       
+    (1, 2, 10),          
+    (1, 3, 15),          
+    (2, 2, 5),           
+    (2, 4, 10),          
+    (3, 3, 5),           
+    (4, 2, 3)    
 ]
 for m in movements:
     from_loc = m[0]
@@ -63,3 +63,4 @@ for m in movements:
 conn.commit()
 conn.close()
 print("✅ inventory.db created with sample data!")
+
